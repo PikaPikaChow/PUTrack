@@ -63,7 +63,7 @@ Put the tracking datasets in ./data. It should look like this:
    ```
 
 ## Training
-Download pre-trained [ARTrack weight](https://github.com/MIV-XJTU/ARTrack) and put it under `$PROJECT_ROOT$/pretrained_models`.
+Download pre-trained [ARTrack_seq weight](https://github.com/MIV-XJTU/ARTrack) and put it under `$PROJECT_ROOT$/pretrained_models`.
 
 
 ### Two-stage sequence-level training
