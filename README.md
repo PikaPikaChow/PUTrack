@@ -8,7 +8,7 @@ You can find the following in the project:
 
 - pre-trained model of PU-ARTrack.
 
-- raw result of all comparison trackers on hut290, uot100 and utb180.
+- raw results of all comparison trackers on hut290, uot100 and utb180.
 
 - datasets of hut290, uot100 and utb180.
 
