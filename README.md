@@ -90,10 +90,10 @@ python tracking/analysis_results.py # need to modify tracker configs and names
 
 If you just want to take a look at the tracking results or hut290 dataset, we provide a script for visualising tracking results. You do not need to install the above environment, just install the opencv-python package and download the corresponding data set. 
 
-step 1. pip install opencv-python
-step 2. download the hut290 datasets or tracking results that you want to check.(If you want to visualise the results, you must download the corresponding test sequence. If you just want to browse the dataset and the data annotations, you only need to download the sequence you want to see.)
-step 3. fix the path in vis_resuls.py
-step 4. run vis_resuls.py
+- step 1. pip install opencv-python
+- step 2. download the hut290 datasets or tracking results that you want to check.(If you want to visualise the results, you must download the corresponding test sequence. If you just want to browse the dataset and the data annotations, you only need to download the sequence you want to see.)
+- step 3. fix the path in vis_resuls.py
+- step 4. run vis_resuls.py
 
 ## Source
 
