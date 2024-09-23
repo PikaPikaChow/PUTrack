@@ -77,6 +77,12 @@ def names2datasets(name_list: list, settings, image_loader):
             else:
                 # raise ValueError("NOW WE CAN ONLY USE TRACKINGNET FROM LMDB")
                 datasets.append(TrackingNet(settings.env.trackingnet_dir, image_loader=image_loader))
+        if name == "HUT290":
+            if settings.use_lmdb:
+                print("Building lasot dataset from lmdb")
+                datasets.append(Lasot_lmdb(settings.env.lasot_lmdb_dir, split='train', image_loader=image_loader))
+            else:
+                datasets.append(HUT290(settings.env.HUT290_dir, split='train', image_loader=image_loader))        
     return datasets
 
 def slt_collate(batch):
