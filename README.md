@@ -64,12 +64,13 @@ Put the tracking datasets in ./data. It should look like this:
    ```
 
 ## Training
-Download pre-trained [ARTrack_seq weight](https://github.com/MIV-XJTU/ARTrack) and put it under `$PROJECT_ROOT$/pretrained_models`.
+Download pre-trained [MAE ViT-Base weights](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth) and put it under `$PROJECT_ROOT$/pretrained_models`, this step is not necessary and you can annotate the relevant loading code to skip it. .
+Download pre-trained [ARTrackseq weight](https://github.com/MIV-XJTU/ARTrack) and put it under `$PROJECT_ROOT$/pretrained_checkpoint`.
 
 
 ### Two-stage sequence-level training
 
-To enable sequence-level training, replace 'experience/artrack_seq/*.yaml' PRETRAIN_PTH in the yaml configuration file with the path to your pretrained checkpoint, such as './output/artrack_256_full/checkpoints/train/artrack/artrack_256_full/ARTrack_ep0240.pth.tar'.
+To enable sequence-level training, replace 'experience/artrack_seq/*.yaml' PRETRAIN_PTH in the yaml configuration file with the path to your pretrained checkpoint, such as './pretrained_checkpoint/ARTrackSeq_ep0060.pth.tar'.
 
 ```
 python tracking/train.py --script artrack_seq --config artrack_seq_256_full --save_dir ./output --mode multiple --nproc_per_node 4 --use_wandb 0
