@@ -66,7 +66,7 @@ Put the tracking datasets in ./data. It should look like this:
 ## Training
 Download pre-trained [MAE ViT-Base weights](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth) and put it under `$PROJECT_ROOT$/pretrained_models`, this step is not necessary and you can annotate the relevant loading code to skip it. 
 
-Download pre-trained [ARTrackseq weight(artrack_seq_256_full)]([https://github.com/MIV-XJTU/ARTrack](https://drive.google.com/drive/folders/1KsH_MIZIdgjZpUZBmR4P88yeYDqM8yNW)) and put it under `$PROJECT_ROOT$/pretrained_checkpoint`.
+Download pre-trained [ARTrackseq weight(artrack_seq_256_full)](https://drive.google.com/drive/folders/1KsH_MIZIdgjZpUZBmR4P88yeYDqM8yNW) and put it under `$PROJECT_ROOT$/pretrained_checkpoint`.
 
 
 ### Two-stage sequence-level training
