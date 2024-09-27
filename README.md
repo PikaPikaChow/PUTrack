@@ -14,7 +14,8 @@ You can find the following in the project:
 
 - hut290 evaluation toolkit.
 
-Video demo:  https://youtu.be/BArrl5szKrE?si=ypcuGWkKy8FnYvpI
+[Video demo](https://www.youtube.com/watch?v=1o3grzw8MO4&list=PL_Ck6QBhC5KrmOmwwwngfsJpqGaEd7dHV)
+
 If you want to see more results of the tracker, please go to the Visualization chapter and run the script to view the experimental results we provided for 25 trackers. 
 
 ## Install the environment
